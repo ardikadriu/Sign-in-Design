@@ -7,9 +7,9 @@ const Firstsection = () => {
       <h4 className="text-center text-[24px] text-medium mt-[42px] mb-[25px]">
         Please enter your details.
       </h4>
-      <div className="flex border-2 border-black rounded-[40px] h-[60px] justify-center items-center">
+      <div className="flex border-2 border-black rounded-[40px] h-[60px] justify-center hover:cursor-pointer items-center">
         <FaApple size={39} />
-        <h2 className="text-[24px] font-medium ml-[12px]">Login with Apple</h2>
+        <h2 className="text-[24px] font-medium ml-[12px] ">Login with Apple</h2>
       </div>
       <div className="flex items-center text-[24px] mt-[23px]">
         <div className="w-[179px] h-[4px] bg-[#D9D9D9]"></div>
@@ -80,7 +80,9 @@ const Firstsection = () => {
         <h1 className="text-[#7A7676] text-center font-medium mt-[14px]">
           {" "}
           Dont have an account?
-          <span className="text-black font-bold">Sign Up</span>
+          <span className="text-black font-bold hover:cursor-pointer">
+            Sign Up
+          </span>
         </h1>
       </div>
     </section>
